@@ -1,0 +1,50 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#grid {
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+}
+
+.canvas {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    border: 2px solid black;
+    width: 512px;
+    height: auto;
+    box-sizing: border-box;
+}
+
+#size {
+    margin-bottom: 20px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 0;
+}
+
+.square {
+    display: flex;
+    box-sizing: border-box;
+    flex-shrink: 1;
+    flex-grow: 0;
+    height: 32px;
+    width: 32px;
+    border: 1px solid gray;
+}
+
+.square:hover {
+    background-color: black;
+}
